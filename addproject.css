@@ -56,7 +56,6 @@ h1 {
     padding-bottom: 20px;
     padding-top: 10px;
     /* background-color: red; */
-    margin: 0px;
 }
 form {
     /* background-color: yellow; */
@@ -187,13 +186,6 @@ textarea {
     background-color: black;
     border-radius: 10px;
 }
-a {
-    font-family: 'Segoe UI';
-}
-h1 {
-    font-family: 'Segoe UI';
-    margin-bottom: 30px;
-}
 .myProject {
     background-color: rgb(255, 255, 255);
     width: 100%;
@@ -282,6 +274,9 @@ h1 {
     color: rgb(255, 255, 255);
     padding: 10px;
     border-radius: 10px;
+}
+a {
+    font-family: 'Segoe UI';
 }
 button:hover{
     background-color: orangered;

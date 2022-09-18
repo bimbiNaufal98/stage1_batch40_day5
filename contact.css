@@ -1,7 +1,7 @@
 body {
     margin: 0px;
     background-color: rgb(230, 230, 230);
-    height: 93vh;
+    height: 100%;
 }
 * {
     text-decoration: none;
@@ -89,6 +89,7 @@ form div select {
     display: flex;
     justify-content: flex-end;
     margin-top: 15px;
+    margin-bottom: 30px;
     font-family: 'Segoe UI';
 }
 .button button {
@@ -104,13 +105,14 @@ button:hover{
     background-color: orangered;
 }
 h1 {
+    font-family: 'Segoe UI';
     font-weight: bold;
     font-size: 30px;
     text-align: center;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     padding-top: 10px;
     /* background-color: red; */
-    margin: 0px;
+    margin-top: 65px;
 }
 textarea {
     width: 100%;
