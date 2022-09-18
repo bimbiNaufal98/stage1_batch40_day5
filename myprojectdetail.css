@@ -1,0 +1,76 @@
+body {
+    margin: 0px;
+    background-color: rgb(230, 230, 230);
+    height: 93vh;
+    font-family: 'Segoe UI';
+}
+* {
+    text-decoration: none;
+}
+nav {
+    height: 8vh;
+    background-color: white;
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0px;
+    padding: 10px 80px 10px 80px;
+}
+nav ul li {
+    display: flex;
+    align-items: center;
+    margin-left: 35px;
+}
+nav ul li a {
+    color: black;
+}
+nav ul li a button {
+    padding: 7px 25px 7px 25px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.navbarLeft {
+    display: flex;
+    flex: 50%;
+}
+.navbarRight {
+    display: flex;
+    flex: 50%;
+    justify-content: flex-end;
+    align-items: center;
+}
+button:hover {
+    background-color: orangered;
+}
+a {
+    font-family: 'Segoe UI';
+}
+.containerMain {
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    /* background-color: red; */
+    width: 75%;
+    height: 100%;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+.containerTwo {
+    /* background-color: green; */
+    width: 31%;
+    margin-left: 40px;
+    padding: 0px;
+}
+i {
+    font-size: 25px;
+    margin: 10px;
+}

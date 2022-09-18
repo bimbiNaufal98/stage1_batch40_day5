@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <title>Selamat Datang Day4</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <div class="navbarLeft">
+                <img src="Assets/logo Dumbwaysid.png" alt="logo Dumbways.id" width="45px">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="addproject.html">My Project</a>
+                </li>
+            </div>
+            <div class="navbarRight">
+                <li>
+                    <a href="contact.html"><button>Contact Me</button></a>
+                </li>
+            </div>
+        </ul>
+    </nav>
+    <section>
+        <div class="input">
+            <form>
+                <h1>GET IN TOUCH</h1>
+                <div>
+                    <label for="inputName">Name</label>
+                    <input type="text" id="inputName" required>
+                </div>
+                <div>
+                    <label for="inputEmail">Email</label>
+                    <input type="email" id="inputEmail" required>
+                </div>
+                <div>
+                    <label for="inputPhoneNumber">Phone Number</label>
+                    <input type="number" id="inputPhoneNumber" required>
+                </div>
+                <div>
+                    <label for="inputSubject">Subject</label>
+                    <select id="inputSubject">
+                        <option value="" hidden>Select</option>
+                        <option>Fullstack Developer</option>
+                        <option>FrontEnd Developer</option>
+                        <option>Backend Developer</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="inputMessage">Your Message</label>
+                    <textarea id="inputMessage"></textarea>
+                </div>
+                <div class="button">
+                    <button type="button" onclick="submitData()">Submit</button>
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+<script src="form.js"></script>
+</html>

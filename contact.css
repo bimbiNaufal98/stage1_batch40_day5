@@ -1,0 +1,128 @@
+body {
+    margin: 0px;
+    background-color: rgb(230, 230, 230);
+    height: 93vh;
+}
+* {
+    text-decoration: none;
+}
+nav {
+    height: 8vh;
+    background-color: white;
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0px;
+    padding: 10px 80px 10px 80px;
+}
+nav ul li {
+    display: flex;
+    align-items: center;
+    margin-left: 35px;
+}
+nav ul li a {
+    color: black;
+}
+nav ul li a button {
+    padding: 7px 25px 7px 25px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Segoe UI';
+}
+.navbarLeft {
+    display: flex;
+    flex: 50%;
+}
+.navbarRight {
+    display: flex;
+    flex: 50%;
+    justify-content: flex-end;
+    align-items: center;
+}
+.input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 93vh;
+    /* background-color: red; */
+}
+form {
+    /* background-color: yellow; */
+    width: 500px;
+    font-family: 'Segoe UI';
+}
+form div label {
+    display: flex;
+    /* background-color: green; */
+    margin: 15px 0 0 0;
+    font-size: 22px;
+    /* font-weight: bold; */
+}
+form div input {
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    height: 45px;
+    padding: 10px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0px 2px 5px rgb(145, 145, 145);
+    font-family: 'Segoe UI';
+}
+form div select {
+    width: 100%;
+    box-sizing: border-box;
+    height: 45px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0px 2px 5px rgb(145, 145, 145);
+    font-family: 'Segoe UI';
+}
+.button {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+    font-family: 'Segoe UI';
+}
+.button button {
+    padding: 8px 30px 8px 30px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    font-family: 'Segoe UI';
+}
+button:hover{
+    background-color: orangered;
+}
+h1 {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    /* background-color: red; */
+    margin: 0px;
+}
+textarea {
+    width: 100%;
+    height: 70px;
+    resize: none;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0px 2px 5px rgb(145, 145, 145);
+    box-sizing: border-box;
+}
+a {
+    font-family: 'Segoe UI';
+}

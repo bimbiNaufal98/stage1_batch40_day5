@@ -1,0 +1,106 @@
+body {
+    margin: 0px;
+    background-color: rgb(230, 230, 230);
+    height: 93vh;
+    font-family: 'Segoe UI';
+}
+* {
+    text-decoration: none;
+}
+nav {
+    height: 8vh;
+    background-color: white;
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0px;
+    padding: 10px 80px 10px 80px;
+}
+nav ul li {
+    display: flex;
+    align-items: center;
+    margin-left: 35px;
+}
+nav ul li a {
+    color: black;
+}
+nav ul li a button {
+    padding: 7px 25px 7px 25px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.navbarLeft {
+    display: flex;
+    flex: 50%;
+}
+.navbarRight {
+    display: flex;
+    flex: 50%;
+    justify-content: flex-end;
+    align-items: center;
+}
+.fullBlogtron1 {
+    display: flex;
+    margin: 30px auto;
+    width: 1200px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0px 15px 30px rgb(145, 145, 145);
+    justify-content: center;
+    align-items: center;
+}
+.contentBlogtron2 {
+    display: flex;
+    flex: 50%;
+    border-radius: 10px;
+    margin-right: 70px;
+    margin-left: 50px;
+}
+.buttonContact3 {
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    border: none;
+}
+.buttonContact3:hover {
+    background-color: orangered;
+}
+.contactDownload4 {
+    display: flex;
+}
+.cardFullstack4 {
+    width: 300px;
+    margin-right: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 10px rgb(145, 145, 145);
+    border-radius: 10px 10px 0 0;
+}
+.contentFullstack5 {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.iconBrands6 {
+    text-align: left;
+    font-size: 30px;
+    margin-top: 40px;
+}
+.iconBrands6 i {
+    margin: 0 10px 0 10px;
+    color: black;
+}
+button:hover {
+    background-color: orangered;
+}
+a {
+    font-family: 'Segoe UI';
+}
