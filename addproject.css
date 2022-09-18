@@ -31,6 +31,7 @@ nav ul li a button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    font-family: 'Segoe UI';
 }
 .navbarLeft {
     display: flex;
@@ -46,14 +47,14 @@ nav ul li a button {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 110vh;
+    height: 100%;
     /* background-color: red; */
 }
 h1 {
     font-weight: bold;
     font-size: 30px;
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
     padding-top: 10px;
     /* background-color: red; */
 }
@@ -190,7 +191,7 @@ textarea {
     background-color: rgb(255, 255, 255);
     width: 100%;
     height: 100%;
-    margin-top: 30px;
+    margin-top: 50px;
     padding-top: 30px;
 }
 .myProjectMain {
@@ -212,11 +213,12 @@ textarea {
     box-shadow: 0px 2px 10px rgb(145, 145, 145);
     border-radius: 10px;
     padding: 15px;
-    margin-bottom: 38px;
+    margin-bottom: 40px;
     margin-left: 38px;
     justify-content: center;
     cursor: pointer;
-    transition: transform .4s;
+    color: black;
+    transition: transform .7s;
     /* background-color: red; */
 }
 .cardProject p {
@@ -226,7 +228,8 @@ textarea {
     color: black;
 }
 .cardProject:hover {
-    transform: scale(1.1);
+    box-shadow: 0 0 10px orangered;
+    transform: scale(1.12);
 }
 .iconCard {
     font-size: 30px;

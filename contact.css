@@ -47,7 +47,7 @@ nav ul li a button {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 93vh;
+    height: 100%;
     /* background-color: red; */
 }
 form {
@@ -89,7 +89,7 @@ form div select {
     display: flex;
     justify-content: flex-end;
     margin-top: 15px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     font-family: 'Segoe UI';
 }
 .button button {
