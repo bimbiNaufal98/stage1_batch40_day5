@@ -11,10 +11,6 @@ function submitData() {
         return alert (alertMessage);
     }
 
-    if (email == "type:email") {
-        return alert ('harap isi dengan alamat email')
-    }
-
     let emailReceiver = "bimbinaufal313@gmail.com"
 
     let a = document.createElement("a")
